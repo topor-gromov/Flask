@@ -99,6 +99,6 @@ app.register_blueprint(users_app, url_prefix="/users")
 
 app.register_blueprint(articles_app, url_prefix="/articles")
 
-app.config["SECRET_KEY"] = "abcdefg123456"
-app.register_blueprint(auth_app, url_prefix="/auth")
+app.config["SECRET_KEY"] = "qwasaersdadafafafafaasdas"
+app.register_blueprint(auth_app, url_prefix="/")
 login_manager.init_app(app)
