@@ -47,13 +47,11 @@ pipdeptree==2.4.0
 poyo==0.5.0
 pycparser==2.21
 pyOpenSSL==22.0.0
-pypiwin32==223
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-dotenv==0.17.1
 python-slugify==7.0.0
 pytz==2022.7
-pywin32==305
 PyYAML==5.4.1
 regex==2021.9.30
 requests==2.25.1
