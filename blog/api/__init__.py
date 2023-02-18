@@ -42,7 +42,7 @@ def init_api(app):
     api.route(UserList, "user_list", "/api/users/", tag="User")
     api.route(UserDetail, "user_detail", "/api/users/<int:id>/", tag="User")
     api.route(AuthorList, "author_list", "/api/authors/", tag="Author")
-    #api.route(AuthorDetail, "author_detail", "/api/authors/<int:id>/", tag="Author")
+    api.route(AuthorDetail, "author_detail", "/api/authors/<int:id>/", tag="Author")
     
     return api
     
