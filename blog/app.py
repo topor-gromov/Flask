@@ -42,7 +42,7 @@ migrate = Migrate(app, db, compare_type=True)
 
 flask_bcrypt.init_app(app)
 
-api = init_api(app)
+#api = init_api(app)
 
 @app.route("/")
 def index():
