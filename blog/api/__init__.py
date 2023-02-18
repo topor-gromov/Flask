@@ -44,4 +44,6 @@ def init_api(app):
     api.route(AuthorList, "author_list", "/api/authors/", tag="Author")
     api.route(AuthorDetail, "author_detail", "/api/authors/<int:id>/", tag="Author")
     
+    return api
+    
 
