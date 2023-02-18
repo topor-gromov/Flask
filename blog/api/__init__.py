@@ -4,6 +4,7 @@ from blog.api.author import AuthorList, AuthorDetail
 from blog.api.article import ArticleList, ArticleDetail
 from combojsonapi.event import EventPlugin
 from combojsonapi.permission import PermissionPlugin
+from flask_combo_jsonapi import Api
 
 
 
