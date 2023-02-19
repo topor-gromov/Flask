@@ -41,6 +41,7 @@ admin.init_app(app)
 migrate = Migrate(app, db, compare_type=True)
 
 flask_bcrypt.init_app(app)
+
 api = init_api(app)
 
 @app.route("/")
@@ -144,9 +145,15 @@ def create_tags():
     ➜ flask create-tags
     """
     from blog.models import Tag
-    for name in ["flask", "django", "python", "sqlalchemy", "news", ]:
-        tag = Tag(name=name)
-        db.session.add(tag)
+    for name in [
+    "flask",
+    "django",
+    "python",
+    "sqlalchemy",
+    "news",
+    ]:
+    tag = Tag(name=name)
+    db.session.add(tag)
     db.session.commit()
     print("created tags")
 
